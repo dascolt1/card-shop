@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.card-image{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+img {
+  max-width: 100%;
+  height: 30vh;
+  display: block;
+  text-align: center;
+}
+
+.show-room {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1em;
+  margin: 1em;
+  grid-row: auto;
+}
+
+.price {
+  font-size: 1.2rem;
+}
+
+.card {
+  border: 1px solid grey;
+  padding: 1rem;
+}
