@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Footer from "./Footer";
+import Footer from "../partials/Footer";
 import ShowRoom from "./ShowRoom";
 import Search from "./Search"
 

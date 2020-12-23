@@ -22,8 +22,11 @@
 }
 
 .search {
-  text-align: center;
   margin-top: 2rem;
+  margin-bottom: 2rem;
+  min-width: 80%;
+  display: flex;
+  justify-content: center;
 }
 
 img {
@@ -35,10 +38,14 @@ img {
 
 .show-room {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 1em;
-  margin: 1em;
-  grid-row: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: .8em;
+  align-items: start;
+  justify-items: center;
+  justify-content: space-evenly;
+  margin: 2em;
+  max-width: 100%;
 }
 
 .price {
@@ -48,4 +55,11 @@ img {
 .card {
   border: 1px solid grey;
   padding: 1rem;
+}
+
+.search-input {
+  width: 30vw;
+  height: 3vh;
+  margin-right: 1rem;
+  padding: .3rem;
 }
