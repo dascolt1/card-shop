@@ -1,0 +1,13 @@
+@media only screen and (max-width: 768px) {
+
+    /* SHow room mobile styles */
+    .show-room {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card {
+        margin-bottom: 1rem;
+    }
+  }
